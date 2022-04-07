@@ -1,0 +1,63 @@
+.sliderWrapper {
+    padding: 0 15px;
+    .slideItem{
+        padding: 0 15px;
+    }
+
+    .slide {
+        background-image: url('https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        height: 100%;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+        .offerDescription {
+            padding: 31px 20px 229px 20px;
+        }
+        .offerTitle {
+            font-size: 32px;
+            color: #fff;
+            font-weight: bold;
+            margin: 0;
+        }
+        .subtitleOffer {
+            font-size: 15px;
+            font-weight: bold;
+            color: #fff;
+            margin: 0;
+            padding-top: 4px;
+        }
+    }
+}
+
+.dataPriceWrapper {
+    background-color: #D6E6E5;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+    .variants{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .varinatsSubtitle{
+        font-size: 14px;
+        color: #1C344D;
+        display: flex;
+        gap: 5px;
+        align-items: center;;
+    }
+    .btnCheckWrapper {
+        text-align: right;
+        margin-top: 15px;
+        
+    
+        .btnCheck{
+            border: none;
+            border-radius: 17px;
+            background-color: #E80085;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+}

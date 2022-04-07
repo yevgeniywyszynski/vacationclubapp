@@ -1,0 +1,23 @@
+.offertsWrapper {
+    background-color: #E80085;
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 30px;
+    align-items: flex-start;
+    margin-bottom: -215px;
+    height: 300px;
+    .ofertTitle {
+        color: #fff;
+        font-size: 19px;
+    }
+    .btnAll {
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+    }
+}
