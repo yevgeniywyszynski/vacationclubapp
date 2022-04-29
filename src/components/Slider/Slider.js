@@ -51,7 +51,7 @@ const SimpleSlider = () => {
         </div>
       </div>
       <div className={styles.slideItem}>
-        <div className={styles.slide}>
+        <div className={styles.slide} style={{backgroundImage: `url(https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)`}}>
           <div className={styles.offerDescription}>
             <h2 className={styles.offerTitle}>Do <span className="pink">70%</span> taniej!</h2>
             <p className={styles.subtitleOffer}>Vakacjuj sie wiecej za mniej </p>
@@ -71,7 +71,7 @@ const SimpleSlider = () => {
         </div>
       </div>
       <div className={styles.slideItem}>
-        <div className={styles.slide}>
+        <div className={styles.slide} style={{backgroundImage: `url(https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)`}}>
           <div className={styles.offerDescription}>
             <h2 className={styles.offerTitle}>Do <span className="pink">70%</span> taniej!</h2>
             <p className={styles.subtitleOffer}>Vakacjuj sie wiecej za mniej </p>
